@@ -37,7 +37,7 @@ function App() {
 
     const loader = new GLTFLoader();
     loader.load(
-      '/placardHolderAdjust.glb',
+      'placardHolderAdjust.glb',
       (gltf) => {
         scene.add(gltf.scene);
       },
